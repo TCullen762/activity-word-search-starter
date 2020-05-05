@@ -8,6 +8,9 @@
 
 // TODO 1: Use querySelector to assign EACH of the above 
 // elements to a variable, just like this:
+let  textBox = document.querySelector('#textbox')
+let sentence =document.querySelector('#sentence')
+let searchResults =document.querySelector('#search-results')
 let searchButton = document.querySelector('#search-button')
 
 searchButton.addEventListener('click', function () {
